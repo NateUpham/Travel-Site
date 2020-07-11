@@ -1,9 +1,9 @@
 .site-logo {
-  border-radius: 150px;
-  height: 200px;
-  width: 200px;
-  right: 20px;
-  top: 2px;
+  border-radius: 9.375em;
+  height: 12.5em;
+  width: 12.5em;
+  right: 1.25em;
+  top: 0.125em;
   position: absolute;
 }
 
@@ -12,43 +12,43 @@
 }
 
 img {
-  padding: 10px;
+  padding: 0.625em;
   text-align: center;
-  height:460px;
-  width: 360px;
+  height:28.75em;
+  width: 22.5em;
 }
 .top-container{
 display: flex;
 justify-content: space-between;
-padding: 40px;
+padding: 2.5em;
 }
 .middle-container{
   display: flex;
   justify-content: space-between;
-  margin: 40px auto 100px auto;
-  padding: 40px;
+  margin: 2.5em auto 6.25em auto;
+  padding: 2.5em;
 }
 .bottom-container{
   display: flex;
   justify-content: space-between;
-  margin: 20px auto 0 auto;
-  padding: 40px;
+  margin: 1.25em auto 0 auto;
+  padding: 2.5em;
 }
 .travel-pics{
-  height: 500px;
-  width: 400px;
+  height: 31.25em;
+  width: 25em;
   background-color: #8fcfd1;
-  padding: 20px;
+  padding: 1.25em;
   margin: auto;
 }
 .planning{
   text-align: center;
-  padding: 20px;
+  padding: 1.25em;
   background-color: #8fcfd1;
   margin: 0 auto;
 }
 #yolo{
   border-radius: 100%;
-  height:250px;
-  weight:200px;
+  height:15.625em;
+  weight:12.5em
 }
