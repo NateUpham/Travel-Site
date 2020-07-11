@@ -52,3 +52,8 @@ padding: 2.5em;
   height:15.625em;
   weight:12.5em
 }
+.roadtrippers{
+  display: flex;
+  justify-content: space-between;
+  margin: 1.25em;
+}
