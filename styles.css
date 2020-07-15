@@ -8,9 +8,6 @@
 
 img {
   padding: 0.625em;
-  text-align: center;
-  height:28.75em;
-  width: 22.5em;
 }
 .top-container{
 display: flex;
@@ -20,22 +17,16 @@ padding: 2.5em;
 .middle-container{
   display: flex;
   justify-content: space-between;
-  margin: 2.5em auto 6.25em auto;
+  margin: 2.5em auto 2.5em auto;
   padding: 2.5em;
 }
 .bottom-container{
   display: flex;
   justify-content: space-between;
-  margin: 1.25em auto 0 auto;
+  margin: 0 auto 0 auto;
   padding: 2.5em;
 }
-.travel-pics{
-  height: 31.25em;
-  width: 25em;
-  background-color: #8fcfd1;
-  padding: 1.25em;
-  margin: auto;
-}
+
 .planning{
   text-align: center;
   padding: 1.25em;
