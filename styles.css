@@ -48,11 +48,12 @@ img{
 	top:1px;
 }
 .travel-log{
-	height: 25rem;
+	height: 30rem;
 	padding: 7% 15%;
 	text-align:center;
 	background-color:#ef8172;
 	color: #fff;
+	overflow: none;
 }
 .travel-pics{
 	width: 10%;
