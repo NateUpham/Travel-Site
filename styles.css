@@ -60,3 +60,7 @@ img{
 	border-radius: 100%;
 	margin: 20px;
 }
+carousel-item{
+	height: 100px;
+	width: 100px;
+}
