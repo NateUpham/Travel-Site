@@ -66,3 +66,9 @@ padding: 2.5em;
 	position:relative;
 	top:1px;
 }
+#travel-log{
+	padding: 7% 15%;
+	text-align:center;
+	background-color:#ef8172;
+	color: #fff;
+}
