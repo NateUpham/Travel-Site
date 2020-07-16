@@ -48,6 +48,8 @@ img{
 	top:1px;
 }
 .travel-log{
+	height: 30%;
+	width: 30%;
 	padding: 7% 15%;
 	text-align:center;
 	background-color:#ef8172;
