@@ -1,52 +1,76 @@
-
-.site-logo{
+.site-logo {
   border-radius: 100%;
   width: 10%;
 }
-.travel-log{
+
+.travel-log {
   text-align: center;
-  background-color:#fb7813;
-}
-.travel-pics{
-border-radius: 100%;
-height: 35rem;
-width: 35rem;
-margin: auto;
+  background-color: #32e0c4;
+  padding: 7% 15%;
 }
 
+.travel-pics {
+  border-radius: 100%;
+  height: 35rem;
+  width: 35rem;
+  margin: auto;
+}
 
-.planning{
+.planning {
   text-align: center;
   padding: 1.25em;
   background-color: #8fcfd1;
   margin: auto;
 }
-#yolo{
+
+#yolo {
   border-radius: 100%;
-  height:15.625em;
-  weight:12.5em
+  height: 15.625em;
+  weight: 12.5em
 }
+
 .myButton {
-	box-shadow: 0px 0px 0px 2px #9fb4f2;
-	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
-	background-color:#7892c2;
-	border-radius:10px;
-	border:1px solid #4e6096;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:19px;
-	padding:12px 73px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #283966;
+  box-shadow: 0px 0px 0px 2px #9fb4f2;
+  background: linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+  background-color: #7892c2;
+  border-radius: 10px;
+  border: 1px solid #4e6096;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 19px;
+  padding: 12px 73px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #283966;
   margin-top: 1.25em;
 }
+
 .myButton:hover {
-	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
-	background-color:#476e9e;
+  background: linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+  background-color: #476e9e;
 }
+
 .myButton:active {
-	position:relative;
-	top:1px;
+  position: relative;
+  top: 1px;
+}
+
+.bottom-buttons {
+  text-align: center;
+  padding: 5%;
+}
+
+.bot-buts {
+  padding: 1rem;
+  color: #fff;
+}
+
+.bot-buts:hover {
+  color: #fb7813;
+}
+
+.copyright {
+  padding: 1rem;
+  color: #fff;
 }
