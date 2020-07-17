@@ -9,59 +9,56 @@
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link rel="stylesheet" href="styles.css">
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
   <title>Leppy and Joe's Bucket List</title>
 
 </head>
 
 <body>
-  <div class="jumbotron">
-    <nav class="navbar navbar-expand-sm navbar-light bg-light mr-auto">
-      <a class="navbar-brand" href="index.html">L&J's Bucket List</a>
-      <button class="navbar-toggler mr-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"></a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Locations
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="mexico.html">Mexico</a>
-              <a class="dropdown-item" href="kenosha.html">Kenosha</a>
-              <a class="dropdown-item" href="#">Florida</a>
-            </div>
-          </li>
-      </div>
-    <img class="site-logo navbar-brand ml-auto" src="rv-logo.jpg" alt="Site-Logo"> 
-  </div>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark mr-auto">
+    <a class="navbar-brand" href="index.html">L&J's Bucket List</a>
+    <button class="navbar-toggler mr-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
- 
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Locations
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="mexico.html">Mexico</a>
+            <a class="dropdown-item" href="kenosha.html">Kenosha</a>
+            <a class="dropdown-item" href="#">Florida</a>
+          </div>
+        </li>
+    </div>
+    <img class="site-logo navbar-brand ml-auto" src="rv-logo.jpg" alt="Site-Logo">
+  </nav>
+    <div class="planning">
+      <img id="yolo" src="images/yolo.jpg" alt="">
+      <h2 class="planning">Start Planning Your Next Trip!</h2>
+      <form action="http://maps.google.com/maps" method="get" target="_blank">
+        <label for="saddr">Enter your location</label>
+        <input type="text" name="saddr" />
+        <label for="daddr">Enter your destination</label>
+        <input type="text" name="daddr" />
+        <input type="submit" value="Get directions" />
+      </form>
+      <a href="https://roadtrippers.com" class="myButton">Check Out Road Trippers!</a>
 
-</div>
-<div class="planning">
-  <img id="yolo" src="images/yolo.jpg" alt="">
-  <h2 class="planning">Start Planning Your Next Trip!</h2>
-<form action="http://maps.google.com/maps" method="get" target="_blank">
- <label for="saddr">Enter your location</label>
- <input type="text" name="saddr" />
- <label for="daddr">Enter your destination</label>
- <input type="text" name="daddr" />
- <input type="submit" value="Get directions" />
-</form>
-  <a href="https://roadtrippers.com" class="myButton">Check Out Road Trippers!</a>
-
-</div>
+    </div>
 </body>
 
 
